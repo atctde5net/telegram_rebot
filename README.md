@@ -20,7 +20,7 @@
     - 增加一个`BOT_SECRET`变量，数值为从步骤2中获得的secret
     - 增加一个`ADMIN_UID`变量，数值为从步骤3中获得的用户id
     - 增加一个`ADMIN_PASSWORD`变量用于登陆网页端密码
-6. 创建D1数据库，创建一个D1数据库`telegram-bot-db`，点击`Explore Data`，复制[D1数据库](https://github.com/c-longgggeuorgo/telegram_rebot/blob/main/data/D1%E6%95%B0%E6%8D%AE%E5%BA%93.md),点击`Run all statement`
+6. 创建D1数据库，创建一个D1数据库`telegram-bot-db`，点击`Explore Data`，复制[D1数据库](./data/D1数据库.md),点击`Run all statement`
 7. 绑定D1数据库，进入`workes`绑定，变量名`DB`,数据库`telegram-bot-db`
 8. 通过打开`https://xxx.workers.dev/registerWebhook`来注册websoket
 
