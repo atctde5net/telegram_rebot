@@ -23,11 +23,13 @@
 6. 创建D1数据库，创建一个D1数据库`telegram-bot-db`，点击`Explore Data`，复制[D1数据库](./data/D1数据库.md),点击`Run all statement`
 7. 绑定D1数据库，进入`workes`绑定，变量名`DB`,数据库`telegram-bot-db`
 8. 通过打开`https://xxx.workers.dev/registerWebhook`来注册websoket
+9. 通过打开`https://xxx.workers.dev/init-db`初始化数据库
 
 ## 使用方法
 - 当其他用户给bot发消息，会被转发到bot创建者
 - 用户回复普通文字给转发的消息时，会回复到原消息发送者
-- 用户回复`/block`, `/unblock`, `/checkblock`,`/admin`等命令会执行相关指令，**不会**回复到原消息发送者
+- 用户回复`/b`或`/B`=`/block`, `/u`或`/U`=/unblock`, `/checkblock`,`/a`或`/A`=/admin`等命令会执行相关指令，**不会**回复到原消息发送者
+- `const hostname = 'your-domin.com';`换成自己的搭的域名
 
 ## 欺诈数据源
 - 文件[fraud.db](./fraud.db)为欺诈数据(个人收集)，格式为每行一个uid,可以通过前端操作
