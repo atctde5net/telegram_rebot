@@ -1383,7 +1383,7 @@ async function onMessage(message, config) {
     
     if (message.text === '/admin') {
       console.log('处理 /admin 命令');
-      const hostname = 'tg.tst.de5.net';
+      const hostname = 'your-domin.com';
       const adminUrl = `https://${hostname}/admin`;
       return await sendMessage({
         chat_id: message.chat.id,
