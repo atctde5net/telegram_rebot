@@ -2398,37 +2398,6 @@ function getLoginPage(errorMessage = null, blockedUntil = null, showPasswordErro
 </html>
   `;
 }
-
-// 管理页面HTML代码较长，这里返回一个简化的版本
-// 如果需要完整的管理页面HTML，请使用之前提供的完整代码
-function getAdminPage() {
-  return `
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>诈骗数据库管理</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <style>
-        body { padding: 20px; background-color: #f5f5f5; }
-        .card { margin-bottom: 20px; }
-        .loading { text-align: center; padding: 40px; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="mb-4">诈骗数据库管理</h1>
-        <div class="alert alert-info">
-            <i class="bi bi-info-circle"></i> 管理界面已加载，功能正常
-        </div>
-        <p>如需完整的管理界面，请确保使用完整的HTML代码。</p>
-    </div>
-</body>
-</html>
-  `;
-}
 function getAdminPage() {
   return `
 <!DOCTYPE html>
